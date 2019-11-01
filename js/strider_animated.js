@@ -13,7 +13,17 @@ $(document).ready(function(){
     //HAMBURGER MENU ANIMATION
     $('#hamburger').click(function(){
 		  $(this).toggleClass('open');
-	  });
+    });
+    
+    // HERO TEXT ANIMATION
+    $("#moving-text").Morphext({
+        animation: "fadeInDown",
+        separator: ",",
+        speed: 4000,
+        complete: function () {
+            $("#hero-slider").carousel("next")
+        }
+    });
     
     // SMOOTH SCROLLING TO ANCHORS
     $('a[href*=\\#]:not([href=\\#]):not(.control-right, .control-left, .carousel-control-prev, .carousel-control-next)').on('click', function() {
@@ -78,7 +88,7 @@ $(document).ready(function(){
     //COPYRIGHT YEAR
     var date = new Date().getFullYear();
     document.getElementById("year").innerHTML = date;
-
+            
 });
 
 window.onload = function() {
