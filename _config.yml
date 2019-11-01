@@ -8,10 +8,10 @@ url: "https://chunkypixel.github.io" # the base hostname & protocol for your sit
 
 # Social networks usernames (many more available: facebook, google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: https://twitter.com/chunkypixelgames
   - title: facebook
     url: https://facebook.com/chunkypixelgames
+  - title: twitter
+    url: https://twitter.com/chunkypixelgames
   - title: github
     url: https://github.com/chunkypixel
 
