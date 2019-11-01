@@ -1,0 +1,23 @@
+# Site settings
+title: Chunky Pixel Games
+email: support@chunkypixel.games
+description: "Write an awesome description here for our new Atari Games site."
+company: "Chunky Pixel Games"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://chunkypixel.github.io" # the base hostname & protocol for your site
+
+# Footer settings
+footer: Your Website
+
+# Social networks usernames (many more available: facebook, google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/chunkypixelgames
+  - title: facebook
+    url: https://facebook.com/chunkypixelgames
+  - title: github
+    url: https://github.com/chunkypixel
+
+# Build settings
+markdown: kramdown
+permalink: pretty
