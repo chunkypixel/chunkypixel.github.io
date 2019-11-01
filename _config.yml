@@ -6,9 +6,6 @@ company: "Chunky Pixel Games"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://chunkypixel.github.io" # the base hostname & protocol for your site
 
-# Footer settings
-footer: Your Website
-
 # Social networks usernames (many more available: facebook, google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter

@@ -4,14 +4,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <p id="copyright">&copy; {{ site.Company }} <script type="text/javascript">document.write(new Date().getFullYear());</script></p><!-- Copyright Text -->
+                    <p id="copyright">&copy; {{ site.company }} <script type="text/javascript">document.write(new Date().getFullYear());</script></p><!-- Copyright Text -->
                     <ul class="social-links">
-                        <li><a href="#"><i class="fa fa-facebook fa-lg icon-social"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter  fa-lg icon-social"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus fa-lg icon-social"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin fa-lg icon-social"></i></a>
-                        <li><a href="#"><i class="fa fa-pinterest fa-lg icon-social"></i></a>
-                        <li><a href="#"><i class="fa fa-instagram fa-lg icon-social"></i></a>
+                        {% for network in site.social %}
+                        <li>
+                            <a href="{{ network.url }}"></a><i class="fa fa-{{ network.title }} fa-lg icon-social"></i> <span class="network-name">{{ network.title }}</span></a>
+                        </li>
+                        {% endfor %}
                     </ul>
                 </div>
             </div>
