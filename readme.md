@@ -8,7 +8,7 @@ In recent years many new homebrew releases have been created such as Beef Drop, 
 
 ## About this repository
 
-This repository contains the GitHub hosted for ChunkyPixel Games (built using Jekyll).
+This repository contains the GitHub hosted site for ChunkyPixel Games (built using Jekyll).
 
 ## Site template
 
