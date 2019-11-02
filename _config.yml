@@ -1,8 +1,8 @@
 # Site settings
-title: Chunky Pixel Games
+title: ChunkyPixel Games
 email: support@chunkypixel.games
 description: "Write an awesome description here for our new Atari Games site."
-company: "Chunky Pixel Games"
+company: "ChunkyPixel Games"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://chunkypixel.github.io" # the base hostname & protocol for your site
 
